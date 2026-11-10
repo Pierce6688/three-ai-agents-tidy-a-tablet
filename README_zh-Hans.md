@@ -57,3 +57,7 @@
 ## 授权
 
 MIT
+
+## 相关案例
+
+**[pad5-nabu-unbrick-forensics](https://github.com/Pierce6688/pad5-nabu-unbrick-forensics-Hermes-agent)**——同一个代理的另一个战场：小米平板 5 硬砖 EDL 深刷完整取证案卷（EN / 繁中 / 简中）。

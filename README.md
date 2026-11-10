@@ -59,3 +59,7 @@ Numbers and quotes in this README come from the actual session logs of the run.
 ## License
 
 MIT
+
+## Related
+
+**[pad5-nabu-unbrick-forensics](https://github.com/Pierce6688/pad5-nabu-unbrick-forensics-Hermes-agent)** — same agent, different battlefield: a full forensics case file on unbricking a hard-locked Xiaomi Pad 5 via EDL (EN / 繁中 / 简中).
