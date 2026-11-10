@@ -1,0 +1,29 @@
+name: 质量反馈 / Feedback
+description: 复现问题、参数偏差、改进建议 / Repro issues, calibration, ideas
+labels: [feedback]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型 / Type
+      options:
+        - 复现失败 / Reproduction failed
+        - 参数需校准 / Parameters need tuning
+        - 内容错误 / Content error
+        - 改进建议 / Improvement idea
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境 / Environment
+      description: 设备型号、系统版本、工具版本 / device, OS, tool versions
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 详情 / Details
+      description: 经过、期望、复现步骤 / what happened, expected, steps
+    validations:
+      required: true
